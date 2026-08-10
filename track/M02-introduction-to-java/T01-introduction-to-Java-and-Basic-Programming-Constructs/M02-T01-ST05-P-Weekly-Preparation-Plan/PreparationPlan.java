@@ -1,4 +1,6 @@
+
 public class PreparationPlan {
+
     public static void main(String[] args) {
 
         int completedTopics = 17;
@@ -10,8 +12,8 @@ public class PreparationPlan {
 
         int weeklyHours = dailyHours * learningDays;
 
-        double progressPercentage =
-                (double) completedTopics * 100 / totalTopics;
+        double progressPercentage
+                = (double) completedTopics * 100 / totalTopics;
 
         System.out.println(
                 "Completed Topics: " + completedTopics);

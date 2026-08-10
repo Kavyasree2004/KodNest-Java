@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class InputWithConditionsLoops {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -26,6 +28,5 @@ public class InputWithConditionsLoops {
         System.out.println("Total solved: " + total);
         System.out.println("Status: " + status);
 
-       
     }
 }

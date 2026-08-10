@@ -1,4 +1,6 @@
-public class Main {
+
+public class SimpleInterestBMIMarks {
+
     public static void main(String[] args) {
 
         // Simple Interest
@@ -6,11 +8,11 @@ public class Main {
         double rate = 6.5;
         double time = 2.0;
 
-        double simpleInterest =
-            principal * rate * time / 100.0;
+        double simpleInterest
+                = principal * rate * time / 100.0;
 
-        double total =
-            principal + simpleInterest;
+        double total
+                = principal + simpleInterest;
 
         // BMI
         double weight = 72.0;
@@ -25,8 +27,8 @@ public class Main {
         int aptitude = 91;
         int reas = 88;
 
-        int marks =
-            java + sql + comm + aptitude + reas;
+        int marks
+                = java + sql + comm + aptitude + reas;
 
         double percentage = marks * 100.0 / 500;
 

@@ -1,4 +1,6 @@
+
 public class PrintAndAdd {
+
     public static void main(String[] args) {
         int total = 0;
 
@@ -7,7 +9,7 @@ public class PrintAndAdd {
                 continue;
             }
 
-            System.out.println("Number: " + number);
+            System.out.println(number);
             total += number;
         }
 
